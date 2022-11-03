@@ -3,8 +3,8 @@
 #include "bodies.h"
 
 //Constante G
-const double G = -9.81;
-const int NSTEPS = 1000; //Pasos
+const double G = 1;
+const int NSTEPS = 10000; //Pasos
 const double DT = 0.01; //Interval de tiempo
 
 // function declarations
