@@ -27,8 +27,8 @@ void force(Planeta & body1, Planeta & body2){
 
     // Fuerza
     for(int ii = 0; ii < 3; ii++){
-        body1.F[ii] = G*Fdir[ii]*body1.mass*body2.mass/Fdir_norm;
-        body2.F[ii] = -G*Fdir[ii]*body1.mass*body2.mass/Fdir_norm;
+        body1.F[ii] =  G*Fdir[ii]*body1.mass*body2.mass/(Fdir_norm*Fdir_norm);
+        body2.F[ii] = -G*Fdir[ii]*body1.mass*body2.mass/(Fdir_norm*Fdir_norm);
     }
 }
 

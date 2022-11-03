@@ -29,3 +29,44 @@
 [I 19:54:47.602 NotebookApp] New terminal with automatic name: 1
 [I 19:56:02.267 NotebookApp] Saving file at /README.md
 [I 19:56:53.980 NotebookApp] Saving file at /README.md
+[W 2022-11-03 20:20:14.612 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.612 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.612 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.612 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.617 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.617 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.617 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.617 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-03 20:20:14.617 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-03 20:20:14.617 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.617 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-03 20:20:14.618 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-11-03 20:20:14.627 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-11-03 20:20:14.627 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 20:20:14.637 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 20:20:14.639 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 20:20:14.642 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:20:14.643 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 20:20:14.643 NotebookApp] http://jupyter-spinillac11-2dsimulacion-5fsonda-2dbb1515r2:8888/user/spinillac11-simulacion_sonda-bb1515r2/?token=...
+[I 20:20:14.643 NotebookApp]  or http://127.0.0.1:8888/user/spinillac11-simulacion_sonda-bb1515r2/?token=...
+[I 20:20:14.643 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:20:14.678 NotebookApp] No web browser found: could not locate runnable browser.
+[I 20:20:16.623 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-bb1515r2/ (10.2.2.223) 1.380000ms
+[I 20:20:17.410 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-bb1515r2/?token=SFexBLvQThOfNO3OlEpjkQ (186.155.19.26) 1.080000ms
+[I 20:20:17.679 NotebookApp] 301 GET /user/spinillac11-simulacion_sonda-bb1515r2/lab/?token=SFexBLvQThOfNO3OlEpjkQ (186.155.19.26) 2.930000ms
+[I 20:20:25.505 NotebookApp] 301 GET /user/spinillac11-simulacion_sonda-bb1515r2/static/favicons/favicon.ico (186.155.19.26) 0.490000ms
+[I 2022-11-03 20:20:29.264 LabApp] Build is up to date
+[I 20:20:35.346 NotebookApp] New terminal with automatic name: 1
+[I 20:22:28.879 NotebookApp] Saving file at /graf.py
+[I 20:23:26.713 NotebookApp] Saving file at /graf.py
+[I 20:23:34.555 NotebookApp] Saving file at /graf.py
+[I 20:23:46.664 NotebookApp] Saving file at /graf.py
+[I 20:23:59.788 NotebookApp] Saving file at /graf.py
+[I 20:24:58.876 NotebookApp] Saving file at /simul.cpp
+[I 20:25:05.276 NotebookApp] Saving file at /simul.cpp
+[I 20:25:24.930 NotebookApp] Saving file at /graf.py
+[I 20:25:50.088 NotebookApp] Saving file at /graf.py
+[I 20:26:09.034 NotebookApp] Saving file at /graf.py
+[W 20:26:27.462 NotebookApp] delete /sc_sy.png
+[I 20:28:24.342 NotebookApp] Saving file at /bodies.h
+[W 20:31:00.069 NotebookApp] delete /sx_sy.png

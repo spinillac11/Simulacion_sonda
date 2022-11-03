@@ -1,5 +1,5 @@
 {
-  "base_url": "/user/spinillac11-simulacion_sonda-m210p5d2/",
+  "base_url": "/user/spinillac11-simulacion_sonda-bb1515r2/",
   "hostname": "0.0.0.0",
   "notebook_dir": "/home/jovyan",
   "password": false,
@@ -7,6 +7,6 @@
   "port": 8888,
   "secure": false,
   "sock": "",
-  "token": "cwO570rwRGGF3kinFKlT3w",
-  "url": "http://0.0.0.0:8888/user/spinillac11-simulacion_sonda-m210p5d2/"
+  "token": "SFexBLvQThOfNO3OlEpjkQ",
+  "url": "http://0.0.0.0:8888/user/spinillac11-simulacion_sonda-bb1515r2/"
 }
