@@ -3,9 +3,10 @@
 #include "bodies.h"
 
 //Constante G
-const float G = 1;//6.67E-11;
-const int NSTEPS = 100000; //Pasos
+const float G = 1;//2.96E-22;//6.67E-11;
+const int NSTEPS = 10000; //Pasos
 const double DT = 0.01; //Interval de tiempo
+const double Tmax = 1000; // 1 hora [segundos]
 
 // function declarations
 void initial_conditions(Planeta & body1, Planeta & body2);

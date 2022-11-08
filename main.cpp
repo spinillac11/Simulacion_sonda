@@ -11,7 +11,7 @@ int main(){
     start_leap_frog(Tierra, DT);
     print(Sol, Tierra, DT);
 
-    for (int ii = 0; ii <= NSTEPS; ++ii){
+    for (double ii = 0; ii <= Tmax; ii += DT){
         leap_frog(Sol, DT);
         leap_frog(Tierra, DT);
         force(Sol, Tierra);

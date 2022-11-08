@@ -1,10 +1,10 @@
 #include "declarations.h"
 
 void initial_conditions(Planeta & body1, Planeta & body2){
-    body2.R[0] = 10;
-    body2.V[1] = 1;
+    body2.R[0] = 100;
+    body2.V[1] = 3.1622;
 
-    body1.mass = 100;
+    body1.mass = 1000;
     body2.mass = 1;
 }
 

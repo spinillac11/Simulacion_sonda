@@ -148,3 +148,77 @@
 [I 19:38:08.231 NotebookApp] Saving file at /graf.py
 [I 19:38:58.826 NotebookApp] Saving file at /declarations.h
 [I 19:40:21.042 NotebookApp] Saving file at /simul.cpp
+[I 19:45:02.135 NotebookApp] Saving file at /graf.py
+[I 19:45:41.842 NotebookApp] Saving file at /graf.py
+[I 19:46:32.455 NotebookApp] Saving file at /graf.py
+[I 19:46:36.404 NotebookApp] Saving file at /graf.py
+[I 19:47:05.032 NotebookApp] Saving file at /declarations.h
+[I 19:47:33.278 NotebookApp] Saving file at /simul.cpp
+[I 19:47:43.880 NotebookApp] Saving file at /graf.py
+[I 19:47:52.857 NotebookApp] Saving file at /declarations.h
+[W 19:48:31.476 NotebookApp] delete /sx_sy.png
+[W 19:48:38.897 NotebookApp] delete /tx_ty.png
+[I 19:51:02.384 NotebookApp] Saving file at /main.cpp
+[I 19:51:53.289 NotebookApp] Saving file at /declarations.h
+[I 19:52:05.362 NotebookApp] Saving file at /declarations.h
+[I 19:52:24.635 NotebookApp] Saving file at /declarations.h
+[I 19:52:37.358 NotebookApp] Saving file at /declarations.h
+[I 19:52:52.800 NotebookApp] Saving file at /main.cpp
+[I 19:53:09.472 NotebookApp] Saving file at /declarations.h
+[I 19:53:29.146 NotebookApp] Saving file at /main.cpp
+[I 19:54:56.884 NotebookApp] Saving file at /declarations.h
+[I 19:55:53.254 NotebookApp] Saving file at /declarations.h
+[I 19:56:29.705 NotebookApp] Saving file at /simul.cpp
+[I 19:57:18.947 NotebookApp] Saving file at /simul.cpp
+[I 19:57:53.868 NotebookApp] Saving file at /declarations.h
+[I 19:57:55.136 NotebookApp] Saving file at /declarations.h
+[I 19:57:56.682 NotebookApp] Saving file at /simul.cpp
+[I 19:58:22.760 NotebookApp] Saving file at /simul.cpp
+[I 19:58:56.894 NotebookApp] Saving file at /declarations.h
+[I 19:59:29.413 NotebookApp] Saving file at /declarations.h
+[I 20:00:15.554 NotebookApp] Saving file at /simul.cpp
+[I 20:00:53.638 NotebookApp] Saving file at /simul.cpp
+[I 20:01:21.840 NotebookApp] Saving file at /simul.cpp
+[I 20:01:52.620 NotebookApp] Saving file at /simul.cpp
+[I 20:01:57.008 NotebookApp] Saving file at /declarations.h
+[I 20:02:00.417 NotebookApp] Saving file at /declarations.h
+[I 20:02:30.818 NotebookApp] Saving file at /declarations.h
+[I 20:05:12.440 NotebookApp] Saving file at /simul.cpp
+[I 20:06:33.556 NotebookApp] Saving file at /declarations.h
+[I 20:07:04.136 NotebookApp] Saving file at /simul.cpp
+[I 20:09:32.196 NotebookApp] Saving file at /graf.py
+[I 20:10:04.140 NotebookApp] Saving file at /simul.cpp
+[I 20:11:55.031 NotebookApp] Saving file at /simul.cpp
+[I 20:11:59.536 NotebookApp] Saving file at /declarations.h
+[I 20:12:00.066 NotebookApp] Saving file at /declarations.h
+[I 20:12:02.360 NotebookApp] Saving file at /graf.py
+[I 20:12:04.444 NotebookApp] Saving file at /graf.py
+[W 20:34:57.272 NotebookApp] 500 PUT /user/spinillac11-simulacion_sonda-fsirv9y7/lab/api/workspaces/default?1667939696298 (186.155.19.18): [Errno 28] No space left on device
+[W 2022-11-08 20:34:57.297 LabApp] wrote error: '[Errno 28] No space left on device'
+[E 20:34:57.298 NotebookApp] {
+      "Host": "hub-binder.mybinder.ovh",
+      "Accept": "*/*",
+      "Referer": "https://hub-binder.mybinder.ovh/user/spinillac11-simulacion_sonda-fsirv9y7/lab/tree/main.cpp",
+      "User-Agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 20:34:57.298 NotebookApp] 500 PUT /user/spinillac11-simulacion_sonda-fsirv9y7/lab/api/workspaces/default?1667939696298 (186.155.19.18) 27.620000ms referer=https://hub-binder.mybinder.ovh/user/spinillac11-simulacion_sonda-fsirv9y7/lab/tree/main.cpp
+[I 20:47:12.804 NotebookApp] Saving file at /simul.cpp
+[I 20:47:12.838 NotebookApp] Saving file at /declarations.h
+[I 20:47:59.867 NotebookApp] Saving file at /simul.cpp
+[I 20:48:11.191 NotebookApp] Saving file at /declarations.h
+[I 20:49:25.581 NotebookApp] Saving file at /declarations.h
+[I 20:50:28.017 NotebookApp] Saving file at /declarations.h
+[I 20:50:34.613 NotebookApp] Saving file at /simul.cpp
+[I 20:50:39.760 NotebookApp] Saving file at /simul.cpp
+[I 20:51:15.036 NotebookApp] Saving file at /declarations.h
+[I 20:53:33.001 NotebookApp] Saving file at /simul.cpp
+[I 20:53:42.768 NotebookApp] Saving file at /declarations.h
+[I 20:53:45.416 NotebookApp] Saving file at /declarations.h
+[I 20:53:51.327 NotebookApp] Saving file at /simul.cpp
+[I 20:54:12.571 NotebookApp] Saving file at /declarations.h
+[I 20:54:37.267 NotebookApp] Saving file at /simul.cpp
+[I 20:54:59.101 NotebookApp] Saving file at /simul.cpp
+[I 20:55:30.923 NotebookApp] Saving file at /simul.cpp
+[I 20:56:02.392 NotebookApp] Saving file at /simul.cpp
+[I 20:57:01.306 NotebookApp] Saving file at /simul.cpp
+[I 20:57:19.679 NotebookApp] Saving file at /simul.cpp
