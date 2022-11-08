@@ -10,8 +10,15 @@ sy = data[:,3]
 ty = data[:,4]
 
 plt.figure()
-plt.plot(t,sx,label="sx")
-plt.plot(t,sy,label="sy")
+plt.plot(t,tx,label="tx(t)")
+plt.plot(t,ty,label="ty(t)")
 plt.legend()
-plt.savefig("sx_sy.png")
+#plt.savefig("sx_sy.png")
+plt.close()
+
+plt.figure()
+plt.plot(sx,sy,label="Sol y(x)")
+plt.plot(tx,ty,label="Tierra y(x)")
+plt.legend()
+plt.savefig("Sol_Tierra_yx.png")
 plt.close()
