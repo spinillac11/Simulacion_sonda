@@ -1,11 +1,11 @@
 #include "declarations.h"
 
 void initial_conditions(Planeta & body1, Planeta & body2){
-    body2.R[0] = 100;
-    body2.V[1] = 3.1622;
+    body2.R[0] = 100;//100;
+    body2.V[1] = 3;//3.1622;
 
-    body1.mass = 1000;
-    body2.mass = 1;
+    body1.mass = 1000;//1000;
+    body2.mass = 1;//1;
 }
 
 
@@ -32,6 +32,7 @@ void force(Planeta & body1, Planeta & body2){
         body2.F[ii] = -G*Fdir[ii]*body1.mass*body2.mass/(Fdir_norm*Fdir_norm);
     }
 }
+  
 
 
 void start_leap_frog(Planeta & body, const double & dt){
@@ -47,6 +48,17 @@ void leap_frog(Planeta & body, const double & dt){
         body.R[ii] += body.V[ii]*dt;
     }
 }
+
+void trans_galileo(Planeta & bodyFijo, Planeta & body2){
+    for(int ii = 0; ii < 3; ii++){
+        bodyFijo.R[ii] = bodyFijo.R[ii] - bodyFijo.R[ii];
+        bodyFijo.V[ii] = bodyFijo.V[ii] - bodyF.V[ii];
+        
+        body2.R[ii] = body2.R[ii] - bodyFijo.R[ii]; 
+        body2.V[ii] = body2.V[ii] - bodyFijo.V[ii];
+    }
+}
+
 
 void print(Planeta & body1, Planeta & body2, double time){
     std::cout << time << ","
