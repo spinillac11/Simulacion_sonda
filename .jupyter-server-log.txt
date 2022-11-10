@@ -300,3 +300,18 @@
 [I 20:17:50.011 NotebookApp] Saving file at /graf.py
 [I 20:19:35.054 NotebookApp] Saving file at /simul.cpp
 [I 20:22:20.246 NotebookApp] Saving file at /Sol_Tierra_yx.png
+[I 20:39:39.482 NotebookApp] Saving file at /simul.cpp
+[I 20:39:56.003 NotebookApp] Saving file at /declarations.h
+[I 20:40:26.494 NotebookApp] Saving file at /declarations.h
+[I 20:40:40.320 NotebookApp] Saving file at /main.cpp
+[I 20:45:45.684 NotebookApp] Saving file at /graf.py
+[I 20:46:22.407 NotebookApp] Saving file at /declarations.h
+[I 20:48:41.283 NotebookApp] Saving file at /main.cpp
+[I 20:48:53.500 NotebookApp] Saving file at /main.cpp
+[I 20:51:22.834 NotebookApp] Saving file at /simul.cpp
+[I 20:51:53.544 NotebookApp] Saving file at /simul.cpp
+[I 20:52:49.419 NotebookApp] Saving file at /simul.cpp
+[I 20:53:20.867 NotebookApp] Saving file at /main.cpp
+[I 20:53:24.526 NotebookApp] Saving file at /main.cpp
+[I 20:53:35.933 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-lq2f7o1m/lab (168.176.40.192) 0.990000ms
+[I 20:53:36.512 NotebookApp] Saving file at /main.cpp

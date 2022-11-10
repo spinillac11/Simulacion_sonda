@@ -3,15 +3,13 @@
 #include "bodies.h"
 
 //Constante G
-const float G = 1;//2.96E-22;//6.67E-11;
-const int NSTEPS = 10000; //Pasos
-const double DT = 0.01; //Interval de tiempo
-const double Tmax = 100; // 1 hora [segundos]
+const double G = 1;
+const double T = 100;//62.80; //Tiempo
+const double DT = 0.01; //Intervalo de tiempo
+const int NSTEPS = int(T/DT); //Pasos
 
-// function declarations
-void initial_conditions(Planeta & body1, Planeta & body2);
+
+// function declaratons
 void force(Planeta & body1, Planeta & body2);
-void start_leap_frog(Planeta & body, const double & dt);
-void leap_frog(Planeta & body, const double & dt);
-void trans_galileo(Planeta & body1, Planeta & body2);
+void trans_galileo(Planeta & bodyFijo, Planeta & body2);
 void print(Planeta & body1, Planeta & body2, double time);
