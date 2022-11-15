@@ -315,3 +315,135 @@
 [I 20:53:24.526 NotebookApp] Saving file at /main.cpp
 [I 20:53:35.933 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-lq2f7o1m/lab (168.176.40.192) 0.990000ms
 [I 20:53:36.512 NotebookApp] Saving file at /main.cpp
+[W 2022-11-15 19:18:57.223 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-15 19:18:57.223 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-15 19:18:57.223 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-15 19:18:57.223 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-11-15 19:18:57.237 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-11-15 19:18:57.237 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:18:57.255 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 19:18:57.257 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 19:18:57.259 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:18:57.259 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 19:18:57.259 NotebookApp] http://jupyter-spinillac11-2dsimulacion-5fsonda-2dnb9u3mr1:8888/user/spinillac11-simulacion_sonda-nb9u3mr1/?token=...
+[I 19:18:57.259 NotebookApp]  or http://127.0.0.1:8888/user/spinillac11-simulacion_sonda-nb9u3mr1/?token=...
+[I 19:18:57.259 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:18:57.265 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:18:58.625 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-nb9u3mr1/ (10.0.5.47) 1.150000ms
+[I 19:18:59.049 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-nb9u3mr1/?token=KpEnXdCyRVGJqp_9lX2Qdg (168.176.40.192) 0.970000ms
+[I 19:18:59.136 NotebookApp] 301 GET /user/spinillac11-simulacion_sonda-nb9u3mr1/lab/?token=KpEnXdCyRVGJqp_9lX2Qdg (168.176.40.192) 2.060000ms
+[I 19:18:59.732 NotebookApp] 301 GET /user/spinillac11-simulacion_sonda-nb9u3mr1/static/favicons/favicon.ico (168.176.40.192) 0.910000ms
+[I 2022-11-15 19:19:05.381 LabApp] Build is up to date
+[I 19:19:06.726 NotebookApp] New terminal with automatic name: 1
+[I 19:22:28.895 NotebookApp] Saving file at /main.cpp
+[I 19:23:03.626 NotebookApp] Saving file at /graf.py
+[I 19:23:46.532 NotebookApp] Saving file at /main.cpp
+[I 19:23:50.954 NotebookApp] Saving file at /main.cpp
+[I 19:24:17.618 NotebookApp] Saving file at /main.cpp
+[I 19:25:10.655 NotebookApp] Saving file at /main.cpp
+[I 19:25:20.242 NotebookApp] Saving file at /declarations.h
+[I 19:25:45.075 NotebookApp] Saving file at /declarations.h
+[I 19:26:17.699 NotebookApp] Saving file at /main.cpp
+[I 19:27:09.523 NotebookApp] Saving file at /declarations.h
+[I 19:28:17.095 NotebookApp] Saving file at /main.cpp
+[I 19:29:01.223 NotebookApp] Saving file at /main.cpp
+[I 19:30:23.787 NotebookApp] Saving file at /declarations.h
+[I 19:30:50.291 NotebookApp] Saving file at /main.cpp
+[I 19:31:17.143 NotebookApp] Saving file at /declarations.h
+[I 19:32:10.926 NotebookApp] Saving file at /graf.py
+[I 19:32:40.479 NotebookApp] Saving file at /main.cpp
+[I 19:32:59.325 NotebookApp] Saving file at /graf.py
+[I 19:40:10.051 NotebookApp] Saving file at /main.cpp
+[I 19:40:51.376 NotebookApp] Saving file at /main.cpp
+[I 19:41:22.598 NotebookApp] Saving file at /declarations.h
+[I 19:41:53.664 NotebookApp] Saving file at /main.cpp
+[I 19:42:15.605 NotebookApp] Saving file at /declarations.h
+[I 19:42:57.263 NotebookApp] Saving file at /main.cpp
+[I 19:43:35.434 NotebookApp] Saving file at /main.cpp
+[I 19:44:31.038 NotebookApp] Saving file at /main.cpp
+[I 19:44:37.140 NotebookApp] Saving file at /main.cpp
+[I 19:45:16.364 NotebookApp] Saving file at /declarations.h
+[I 19:45:39.764 NotebookApp] Saving file at /main.cpp
+[W 19:46:19.088 NotebookApp] delete /Sol_Tierra_yx.png
+[I 19:46:27.772 NotebookApp] Saving file at /main.cpp
+[I 19:47:53.380 NotebookApp] Saving file at /graf.py
+[I 19:48:07.896 NotebookApp] Saving file at /graf.py
+[I 19:48:27.473 NotebookApp] 302 GET /user/spinillac11-simulacion_sonda-nb9u3mr1/lab (168.176.40.192) 1.330000ms
+[I 19:48:56.216 NotebookApp] Saving file at /main.cpp
+[I 19:49:03.680 NotebookApp] Saving file at /main.cpp
+[I 19:49:14.394 NotebookApp] Saving file at /main.cpp
+[I 19:49:31.365 NotebookApp] Saving file at /graf.py
+[W 19:49:59.885 NotebookApp] delete /Sol_Tierra_yx_sim2.png
+[I 19:50:15.611 NotebookApp] Saving file at /main.cpp
+[I 19:50:51.802 NotebookApp] Saving file at /declarations.h
+[I 19:51:16.940 NotebookApp] Saving file at /declarations.h
+[I 19:52:01.179 NotebookApp] Saving file at /main.cpp
+[I 19:52:22.180 NotebookApp] Saving file at /main.cpp
+[I 19:52:46.877 NotebookApp] Saving file at /main.cpp
+[I 19:53:36.825 NotebookApp] Saving file at /main.cpp
+[I 19:53:43.772 NotebookApp] Saving file at /graf.py
+[I 19:54:07.823 NotebookApp] Saving file at /main.cpp
+[I 19:54:19.405 NotebookApp] Saving file at /graf.py
+[I 19:55:19.548 NotebookApp] Saving file at /main.cpp
+[I 19:55:23.860 NotebookApp] Saving file at /graf.py
+[I 19:55:29.354 NotebookApp] Saving file at /graf.py
+[I 19:55:31.116 NotebookApp] Saving file at /graf.py
+[I 19:58:27.685 NotebookApp] Saving file at /main.cpp
+[I 19:58:40.641 NotebookApp] Saving file at /graf.py
+[I 19:58:46.128 NotebookApp] Saving file at /graf.py
+[I 19:59:16.120 NotebookApp] Saving file at /main.cpp
+[I 19:59:48.493 NotebookApp] Saving file at /main.cpp
+[I 19:59:54.656 NotebookApp] Saving file at /graf.py
+[I 20:00:20.969 NotebookApp] Saving file at /graf.py
+[W 20:00:42.641 NotebookApp] delete /Sol_Tierra_T.png
+[I 20:01:11.910 NotebookApp] Saving file at /main.cpp
+[I 20:01:17.254 NotebookApp] Saving file at /graf.py
+[I 20:04:12.832 NotebookApp] Saving file at /main.cpp
+[I 20:04:22.230 NotebookApp] Saving file at /graf.py
+[I 20:07:18.450 NotebookApp] Saving file at /simul.cpp
+[I 20:07:33.318 NotebookApp] Saving file at /main.cpp
+[I 20:07:40.457 NotebookApp] Saving file at /graf.py
+[I 20:07:53.934 NotebookApp] Saving file at /graf.py
+[I 20:08:03.595 NotebookApp] Saving file at /main.cpp
+[I 20:11:15.332 NotebookApp] Saving file at /simul.cpp
+[I 20:11:18.869 NotebookApp] Saving file at /simul.cpp
+[I 20:11:54.155 NotebookApp] Saving file at /graf.py
+[I 20:12:36.619 NotebookApp] Saving file at /graf.py
+[I 20:13:03.653 NotebookApp] Saving file at /graf.py
+[I 20:13:38.028 NotebookApp] Saving file at /simul.cpp
+[I 20:15:03.837 NotebookApp] Saving file at /graf.py
+[I 20:16:30.955 NotebookApp] Saving file at /graf.py
+[I 20:18:09.595 NotebookApp] Saving file at /graf.py
+[I 20:19:31.549 NotebookApp] Saving file at /graf.py
+[I 20:19:42.855 NotebookApp] Saving file at /main.cpp
+[I 20:19:55.334 NotebookApp] Saving file at /graf.py
+[I 20:20:01.525 NotebookApp] Saving file at /main.cpp
+[I 20:20:38.698 NotebookApp] Saving file at /main.cpp
+[I 20:20:50.953 NotebookApp] Saving file at /main.cpp
+[I 20:21:00.883 NotebookApp] Saving file at /graf.py
+[I 20:22:19.970 NotebookApp] Saving file at /graf.py
+[I 20:23:28.852 NotebookApp] Saving file at /main.cpp
+[I 20:23:53.266 NotebookApp] Saving file at /graf.py
+[I 20:24:27.486 NotebookApp] Saving file at /main.cpp
+[I 20:24:58.206 NotebookApp] Saving file at /main.cpp
+[I 20:25:19.826 NotebookApp] Saving file at /main.cpp
+[I 20:25:44.950 NotebookApp] Saving file at /main.cpp
+[I 20:26:33.431 NotebookApp] Saving file at /main.cpp
+[I 20:27:06.227 NotebookApp] Saving file at /main.cpp
+[I 20:27:10.313 NotebookApp] Saving file at /graf.py
+[I 20:27:35.167 NotebookApp] Saving file at /main.cpp
+[I 20:27:51.568 NotebookApp] Saving file at /graf.py
+[I 20:29:35.453 NotebookApp] Saving file at /main.cpp
+[I 20:31:35.706 NotebookApp] Saving file at /main.cpp
+[I 20:32:24.142 NotebookApp] Saving file at /main.cpp
+[I 20:33:23.010 NotebookApp] Saving file at /simul.cpp
+[I 20:37:23.237 NotebookApp] Saving file at /simul.cpp
+[I 20:39:23.446 NotebookApp] Saving file at /simul.cpp

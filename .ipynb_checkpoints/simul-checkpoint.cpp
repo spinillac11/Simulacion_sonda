@@ -18,15 +18,20 @@ void force(Planeta & body1, Planeta & body2){
     body2.F = r*(-esc);
 }
 
-void trans_galileo(Planeta & bodyFijo, Planeta & body2){
+void trans_galileo(Planeta & bodyFijo, Planeta & body2, Planeta & body3){
     
-    bodyFijo.R = bodyFijo.R - bodyFijo.R;
-    bodyFijo.V = bodyFijo.V - bodyFijo.V;
-        
     body2.R = body2.R - bodyFijo.R; 
     body2.V = body2.V - bodyFijo.V;
     
+    body3.R = body3.R - bodyFijo.R; 
+    body3.V = body3.V - bodyFijo.V;
+    
+    bodyFijo.R = bodyFijo.R - bodyFijo.R;
+    bodyFijo.V = bodyFijo.V - bodyFijo.V;
+    
 }
+
+
 
 void print(Planeta & body1, Planeta & body2, double time){
     std::cout << time << ","

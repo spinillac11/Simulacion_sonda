@@ -4,7 +4,7 @@
 
 //Constante G
 const double G = 1;
-const double T = 100;//62.80; //Tiempo
+const double T = 1250;//62.80; //Tiempo
 const double DT = 0.01; //Intervalo de tiempo
 const int NSTEPS = int(T/DT); //Pasos
 
