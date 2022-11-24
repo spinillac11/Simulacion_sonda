@@ -1,15 +1,20 @@
 #include <iostream>
+#include <fstream>
 #include <cmath>
+#include <vector>
 #include "bodies.h"
 
-//Constante G
-const double G = 1;
-const double T = 1250;//62.80; //Tiempo
-const double DT = 0.01; //Intervalo de tiempo
-const int NSTEPS = int(T/DT); //Pasos
+typedef std::vector<Cuerpo> cuerpos; //Nombre para vector
 
+//Constantes globales
+const double G = 8.2214E-7; //Constantes G
+const double T = 80; //Tiempo
+const double DT = 0.0001; //Intervalo de tiempo
+const int NSTEPS = int(T/DT); //Pasos
+const double eps = 0.01;
 
 // function declaratons
-void force(Planeta & body1, Planeta & body2);
-void trans_galileo(Planeta & bodyFijo, Planeta & body2);
-void print(Planeta & body1, Planeta & body2, double time);
+void force(cuerpos & Nbody);
+void trans_galileo(cuerpos & Nbody);
+void print(cuerpos & Nbody, double time);
+bool gassist(cuerpos & Nbody, double Rp);
