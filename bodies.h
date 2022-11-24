@@ -7,11 +7,7 @@ struct Vec3D
     Vec3D(){
         x = 0.0; y = 0.0; z = 0.0;
     }
-    //Print vector
-    void print(){
-        std::cout << "(" << x << ", " << y << ", " << z << ")" << "\n";
-    }
-    //Overloading operator +
+    //Overloading suma de vectores
     Vec3D operator+(const Vec3D &v){
         Vec3D sum;
         sum.x = x + v.x;
@@ -19,7 +15,7 @@ struct Vec3D
         sum.z = z + v.z;
         return sum;
     }
-    //Overloading operator +
+    //Overloading resta de vectores
     Vec3D operator-(const Vec3D &v){
         Vec3D sum;
         sum.x = x - v.x;
@@ -27,7 +23,7 @@ struct Vec3D
         sum.z = z - v.z;
         return sum;
     }
-    //Overloading operator *
+    //Overloading multiplicacion por escalar
     Vec3D operator*(const double &c){
         Vec3D esc;
         esc.x = c*x;
@@ -35,7 +31,7 @@ struct Vec3D
         esc.z = c*z;
         return esc;
     }
-    //Overloading operator /
+    //Overloading division por escalar
     Vec3D operator/(const double &c){
         Vec3D esc;
         esc.x = x/c;
@@ -43,27 +39,25 @@ struct Vec3D
         esc.z = z/c;
         return esc;
     }
+    //Overloading producto punto
+    double operator^(const Vec3D &v){
+        return x*v.x + y*v.y + z*v.z;
+    }
 };
 
-struct Planeta
+struct Cuerpo
 {
     //Radio
     double rad = 0.0;
     //Masa
     double mass = 0.0;
-    //Posicion
-    Vec3D R;
-    //Velocidad
-    Vec3D V;
-    //Aceleracion auxiliar
-    Vec3D Aaux;
-    //Fuerza
-    Vec3D F;
-    //Vector energia (cenetica, potencial, mecanica)
-    Vec3D E;
+    //Energia
+    double E = 0.0;
+    //Posicion, Velocidad, Fuerza
+    Vec3D R, V, F;
 
     //Constructor condiciones iniciales
-    Planeta(double x0, double y0, double z0, double Vx0, double Vy0, double Vz0, double m){
+    Cuerpo(double x0, double y0, double z0, double Vx0, double Vy0, double Vz0, double m){
         this -> mass = m;
         this -> R.x = x0;
         this -> R.y = y0;
@@ -82,11 +76,4 @@ struct Planeta
         V = V + F*(dt/(mass));
         R = R + V*dt;
     }
-
-    //Verlet algorithm
-    void verlet(const double & dt){
-        R = R + V*dt + Aaux*(dt*dt*0.5);
-        V = V + (Aaux+(F/mass))*(dt*0.5);
-    }
-
 };
